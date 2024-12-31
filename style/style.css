@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+body{
+  background-color: #d5e1ef;
+}
+.card_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card{
+ width: 300px;
+ background-color: #fff;
+ padding: 10px;
+ padding-bottom: 30px;
+ border-radius: 10px;
+ font-size: 1.2rem;
+ text-align: center;
+ 
+}
+.qr_code{
+ width: 280px;
+ display: block;
+ border-radius: 10px;
+}
+.text_container{
+  margin-top: 10px;
+}
+.text_container  p{
+ margin-top: 10px;
+  font-size: 1.1rem;
+
+}
